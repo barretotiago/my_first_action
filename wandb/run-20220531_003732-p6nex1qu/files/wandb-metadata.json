@@ -1,0 +1,25 @@
+{
+    "os": "Windows-10-10.0.19043-SP0",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-05-31T03:37:34.761187",
+    "startedAt": "2022-05-31T03:37:32.017249",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "source.api.main:app",
+        "--reload"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\Tiago Barreto\\anaconda3\\envs\\colab2deploy\\Scripts\\uvicorn-script.py",
+    "codePath": "..\\..\\anaconda3\\envs\\colab2deploy\\Scripts\\uvicorn-script.py",
+    "git": {
+        "remote": "git@github.com:barretotiago/my_first_action.git",
+        "commit": null
+    },
+    "email": "tiago.barreto.089@ufrn.edu.br",
+    "root": "C:/Users/Tiago Barreto/Desktop/colab2mlops-main",
+    "host": "DESKTOP-5PB83MR",
+    "username": "Tiago Barreto",
+    "executable": "C:\\Users\\Tiago Barreto\\anaconda3\\envs\\colab2deploy\\python.exe"
+}
