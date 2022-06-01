@@ -74,4 +74,5 @@ async def get_inference(person: Person):
     # Predict test data
     predict = pipe.predict(df)
 
-    return "acc" if else "unacc" if else "good" else "vgood"
+    return "acc" 
+#if else "unacc" if else "good" else "vgood"
