@@ -62,17 +62,17 @@ async def root():
 async def get_inference(person: Person):
     
     # Download inference artifact
-    model_export_path = run.use_artifact(artifact_model_name).file()
-    pipe = joblib.load(model_export_path)
+    #model_export_path = run.use_artifact(artifact_model_name).file()
+    #pipe = joblib.load(model_export_path)
     
     # Create a dataframe from the input feature
     # note that we could use pd.DataFrame.from_dict
     # but due be only one instance, it would be necessary to
     # pass the Index.
-    df = pd.DataFrame([person.dict()])
+    #df = pd.DataFrame([person.dict()])
 
     # Predict test data
-    predict = pipe.predict(df)
+    #predict = pipe.predict(df)
 
     return "acc" 
 #if else "unacc" if else "good" else "vgood"
